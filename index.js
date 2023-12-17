@@ -3,6 +3,7 @@ let app = express()
 
 app.use(express.json())
 app.use(require("cors")())
+app.use(express.static(__dirname+"/"))
 var admin = require("firebase-admin");
 
 var serviceAccount = require("./sweets-factory-95a6a-firebase-adminsdk-j4xsm-dfa1e65ace.json");

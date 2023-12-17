@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "source": "C:\\Users\\abdulrahman\\Documents\\programming\\applications\\sweets factory\\sweetsfactory\\build\\web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "region": "asia-east1"
+    }
+  }
+}
